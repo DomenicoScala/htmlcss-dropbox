@@ -32,6 +32,10 @@
     font-size: 13px;
 }
 
+.containermain{
+    width: 1000px;
+    margin: 0 auto;
+}
 
 
 /*
@@ -52,12 +56,10 @@
 
 .continform{
     width: 30%;
-    height: 465px;
 }
 
 .img-head-bott{
     width: 70%;
-    height: 465px;
 }
 
 .leftheadtop, .rightheadtop{
@@ -77,7 +79,7 @@
 }
 
 .container-head-top div h1{
-    padding: 30px 0;
+    padding-top: 70px;
     font-size: 70px;
     font-weight: 800;
 }
@@ -117,6 +119,15 @@
    MAIN
 
 */
+.card{
+    display: flex;
+    justify-content: space-between;
+}
+
+.containermain div h3{
+    margin: 70px 0;
+} 
+
 
 
 /*
@@ -132,7 +143,7 @@
 
 .debug header .headertop{
     /* background-color: yellow; */
-    min-height: 50px;
+    /* min-height: 50px; */
 }
 
 
@@ -148,10 +159,10 @@
 } */
 
 
-.debug .headerbottom .container-head-top .titoloh1{
+/* .debug .headerbottom .container-head-top .titoloh1{
     background-color: blue;
     border: 1px dashed black;
-}
+} */
 
 
 /* .debug .container-head-top .flex-head-bottom .continform{
@@ -163,3 +174,36 @@
     background-color: green;
     border: 2px dashed black;
 } */
+
+
+.debug main section{
+    background-color: blue;
+}
+
+
+.debug main section .card div{
+    background-color: red;
+    border: 1px dashed black;
+    height: 600px;
+    width: 300px;
+}
+
+.debug .containermain .titolo{
+    background-color: green;
+    border: 1px dashed black;
+}
+
+.debug .containermain .inputradio{
+    background-color: rgb(255, 255, 255);
+    border: 1px dashed black;
+    width: 100%;
+}
+
+
+.debug main section .cardorizzontale{
+    background-color: magenta;
+    width: 100%;
+    border: 1px dashed black;
+    height: 200px;
+    margin-top: 20px;
+}
