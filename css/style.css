@@ -8,4 +8,130 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+
+/*
+
+   GENERAL
+
+*/
+
+.container-head-top{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+
+
+
+/*
+
+   HEADER
+
+*/
+.rowheadtop{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.flex-head-bottom{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.continform{
+    width: 30%;
+    height: 465px;
+}
+
+.img-head-bott{
+    width: 70%;
+    height: 465px;
+}
+
+.leftheadtop, .rightheadtop{
+    padding: 20px;
+}
+ 
+.leftheadtop img{
+    vertical-align: sub;
+}
+
+.leftheadtop a, .rightheadtop .notbutton{
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 13px;
+    color: black;
+    margin-left: 20px;
+}
+
+
+.button-blue{
+    background-color: #0061FF;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+
+
+
+
+
+/*
+
+   MAIN
+
+*/
+
+
+/*
+
+   FOOTER
+*/
+
+/*
+
+   DEBUG
+
+*/
+
+.debug header .headertop{
+    /* background-color: yellow; */
+    min-height: 50px;
+}
+
+
+.debug .headerbottom {
+    background-color: aqua;
+    height: 500px;
+}
+
+.debug .headerbottom > * {
+    background-color: red;
+    border: 1px dashed black;
+    height: 500px;
+
+}
+
+
+.debug .headerbottom .container-head-top .titoloh1{
+    background-color: blue;
+    border: 1px dashed black;
+}
+
+
+.debug .container-head-top .flex-head-bottom .continform{
+    background-color: violet;
+    border: 2px dashed black;
+}
+
+.debug .container-head-top .flex-head-bottom .img-head-bott{
+    background-color: green;
+    border: 2px dashed black;
 }
