@@ -38,6 +38,20 @@
 }
 
 
+.position-button{
+    position: relative;
+}
+
+.button-white{
+    border: 1px solid black;
+    padding: 10px;
+    text-decoration: none;
+    position: absolute;
+    top: 267px;
+}
+
+
+
 /*
 
    HEADER
@@ -135,7 +149,7 @@
     width: 100%;
 }
 
-.containermain div h2{
+.containermain .titolo h2{
     margin-top: 120px;
     margin-bottom: 25px;
 } 
@@ -257,6 +271,42 @@ ul li:last-child{
     width: 70%;
 }
 
+.flex-sec-3{
+    display: flex;
+    margin-top: 90px;
+}
+
+.flex-sec-3 > *{
+    width: calc(100% / 2);
+}
+
+.flex-sec-3 div img{
+    width: 100%;
+}
+
+.flex-sec-3 div h2{
+    padding-top: 40px;
+    padding-left: 30px;
+    padding-right: 100px;
+}
+
+.flex-sec-3 div p{
+    margin-top: 20px;
+    padding-left: 30px;
+    padding-right: 100px;
+}
+
+.flex-sec-3 div a{
+    margin-left: 30px;
+}
+
+
+
+
+
+
+
+
 
 
 
@@ -271,10 +321,10 @@ ul li:last-child{
 
 */
 
-.debug header .headertop{
+/* .debug header .headertop{
     /* background-color: yellow; */
     /* min-height: 50px; */
-}
+
 
 
 /* .debug .headerbottom {
@@ -328,3 +378,8 @@ ul li:last-child{
 } */
 
 
+/* .debug .flex-sec-3{
+    width: 100%;
+    background-color: red;
+}
+ */
