@@ -122,6 +122,16 @@
 .card{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.card > *{
+    width: 30%;
+    margin-bottom: 20px;
+}
+
+.card > *:last-child{
+    width: 100%;
 }
 
 .containermain div h3{
@@ -184,8 +194,6 @@
 .debug main section .card div{
     background-color: red;
     border: 1px dashed black;
-    height: 600px;
-    width: 300px;
 }
 
 .debug .containermain .titolo{
@@ -200,10 +208,3 @@
 }
 
 
-.debug main section .cardorizzontale{
-    background-color: magenta;
-    width: 100%;
-    border: 1px dashed black;
-    height: 200px;
-    margin-top: 20px;
-}
