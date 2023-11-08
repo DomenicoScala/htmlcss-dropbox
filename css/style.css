@@ -175,6 +175,18 @@ input{
 }
 
 
+.cardinfo{
+    position: relative;
+}
+
+
+.button-enterprise{
+    position: absolute;
+    top: 28px;
+    left: 802px;
+}
+
+
 .cardinfo h3{
     padding: 20px;
     font-size: 23px;
@@ -238,6 +250,12 @@ ul li:last-child{
     margin-bottom: 50px
 }
 
+#p-enterprise{
+    color: black;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 70%;
+}
 
 
 
