@@ -490,6 +490,10 @@ ul li:last-child{
     margin-top: 30px;
 }
 
+.faq-info{
+    margin-bottom: 70px;
+}
+
 .faq-info > *{
     display: flex;
     border-top: 1px solid black;
@@ -509,12 +513,25 @@ ul li:last-child{
     border-bottom: 1px solid black;
 }
 
-
-
 /*
 
    FOOTER
 */
+
+footer section{
+    background-color: black;
+}
+
+.flex-foot{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px 0;
+}
+
+.flex-foot > *{
+    width: calc(100% / 5);
+}
+
 
 /*
 
@@ -595,4 +612,14 @@ ul li:last-child{
     background-color: blue;
     border: 1px dashed black;
     /* width: 50%; */
- } */
+
+
+.debug footer .flex-foot > *{
+    background-color: #FF1C1C;
+    border: 1px dashed black;
+    height: 300px;
+}
+
+.debug footer section:nth-child(2) div{
+    color: white
+}
