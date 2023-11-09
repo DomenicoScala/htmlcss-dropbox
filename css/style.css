@@ -25,6 +25,7 @@
     margin: 0 auto;
 }
 
+
 .button-blue{
     background-color: #0061FF;
     color: white;
@@ -204,6 +205,12 @@ input{
 }
 
 
+.flex-feature{
+    display: flex;
+}
+
+
+
 .cardinfo{
     position: relative;
 }
@@ -221,9 +228,10 @@ input{
     font-size: 23px;
 }
 
-.cardinfo p:first-of-type{
+.cardinfo p:nth-child(2){
     font-weight: 700;
     padding: 0px 0px 6px 20px;
+
 }
 
 .cardinfo p:nth-child(3){
@@ -238,8 +246,15 @@ input{
     margin-bottom: 40px;
 }
 
-.infoplan{
-    margin: 36px 20px;
+.flex-feature div i{
+    margin-left: 10px;
+    vertical-align: -webkit-baseline-middle;
+    margin-top: 14px;
+}
+
+.flex-feature div p{
+    padding: 0px 14px 6px 20px;
+    margin-top: 13px;
 }
 
 .cardinfo #acquista{
@@ -267,8 +282,9 @@ input{
     color: #0061FF;
 }
 
-ul li{
+.card div ul li{
     margin-top: 15px;
+    padding-right: 56px;
 }
 
 .cardinfo a:last-child{
@@ -497,15 +513,14 @@ ul li:last-child{
 .faq-info > *{
     display: flex;
     border-top: 1px solid black;
-    padding: 20px 0;
-    flex-wrap: wrap;
+    padding: 27px 0;
 }
 
-.faq-info div p{
+.faq-info > * > p{
     flex-grow: 1;
 }
 
-.faq-info div div i{
+.faq-info > * > div{
     margin-right: 40px;
 }
 
@@ -528,9 +543,46 @@ footer section{
     padding: 50px 0;
 }
 
-.flex-foot > *{
-    width: calc(100% / 5);
+.flex-foot{
+    display: flex;
 }
+
+
+.flex-foot > *{
+    width: calc(100% / 5 - 50px);
+    margin-left: 50px;
+
+}
+
+.flex-foot div > *{
+    color: white;
+    list-style: none;
+    margin-bottom: 30px;
+}
+
+section hr{
+    width: 10%;
+    margin-left: 50px;
+    margin-bottom: 30px;
+}
+
+
+.language span i{
+    color: gray;
+    margin-bottom: 50px;
+}
+
+.language {
+    margin-left: 50px;
+    color: gray;
+}
+
+
+.flex-foot div ul li{
+    margin-top: 10px;
+    font-weight: 300;
+}
+
 
 
 /*
@@ -614,12 +666,12 @@ footer section{
     /* width: 50%; */
 
 
-.debug footer .flex-foot > *{
+/* .debug footer .flex-foot > *{
     background-color: #FF1C1C;
     border: 1px dashed black;
     height: 300px;
-}
+} */
 
-.debug footer section:nth-child(2) div{
+/* .debug footer section:nth-child(2) div{
     color: white
-}
+} */
