@@ -471,6 +471,7 @@ ul li:last-child{
 
 .cont-info{
     width: 70%;
+
 }
 
 .button-flex{
@@ -478,10 +479,36 @@ ul li:last-child{
 }
 
 .cont-info h4{
-    padding: 70px;
+    padding: 70px 200px 70px 0px;
     font-size: 40px;
     color: #61082B;
 }
+
+.faq h4{
+    font-size: 30px;
+    padding: 70px 0px;
+    margin-top: 30px;
+}
+
+.faq-info > *{
+    display: flex;
+    border-top: 1px solid black;
+    padding: 20px 0;
+    flex-wrap: wrap;
+}
+
+.faq-info div p{
+    flex-grow: 1;
+}
+
+.faq-info div div i{
+    margin-right: 40px;
+}
+
+.faq-info div:nth-child(3){
+    border-bottom: 1px solid black;
+}
+
 
 
 /*
